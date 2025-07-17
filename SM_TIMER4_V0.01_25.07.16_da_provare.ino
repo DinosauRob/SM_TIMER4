@@ -315,8 +315,8 @@ byte shrittmotoren()
       
     return nf;
     
-    case  21: stopTimer(); nf=0;  return nf;
+    case  21: return shritt;
     
-    default:  return nf;
+    default:  return shritt;
   }
 }
